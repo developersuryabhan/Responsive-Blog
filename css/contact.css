@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-cantent{
+    
+    height: 100vh;
+    /* display: flex; */
+    /* height: 395px; */
+    /* background-color: rgba(54, 54, 216, 0.87); */
+    margin-top: 10px;
+    /* padding: 9px; */
+    position: relative;
+    overflow: hidden;
+}
+.contact-cantent::after{
+    content: "";
+    background-image:url("../img/11.svg.svg");
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
+.contact-form{
+    /* text-align:center; */
+
+
+}
